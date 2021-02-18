@@ -161,7 +161,13 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
     url('http://www.dmoe.cc/random.php') no-repeat 0% 0%/ cover;
 }
-	
+
+/* 手机端换用一张背景图片，可以不使用 */
+@media screen and (max-width:800px) {
+    body {
+		background: url('https://oss.yansheng.xyz/your-name-phone2ys.jpg') no-repeat fixed top;
+    }
+    
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block
 }
@@ -2851,7 +2857,6 @@ pre .css~* .id,pre .id {
 
 @media screen and (max-width:800px) {
 	#container,body,html {
-		background: url('https://oss.yansheng.xyz/your-name-phone2ys.jpg') no-repeat fixed top;
 		height: auto;
 		overflow-x: hidden;
 		overflow-y: auto
