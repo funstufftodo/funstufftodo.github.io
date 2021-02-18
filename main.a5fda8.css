@@ -161,7 +161,7 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
     url('http://www.dmoe.cc/random.php') no-repeat 0% 0%/ cover;
 }
-
+	
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
 	display: block
 }
