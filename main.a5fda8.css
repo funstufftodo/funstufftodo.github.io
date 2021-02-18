@@ -2849,11 +2849,13 @@ pre .css~* .id,pre .id {
 	float: right
 }
 
-/* 手机端换用一张背景图片，可以不使用 */
 @media screen and (max-width:800px) {
-    body {
+	#container,body,html {
 		background: url('https://oss.yansheng.xyz/your-name-phone2ys.jpg') no-repeat fixed top;
-    }
+		height: auto;
+		overflow-x: hidden;
+		overflow-y: auto
+	}
 
 	#mobile-nav {
 		display: block
