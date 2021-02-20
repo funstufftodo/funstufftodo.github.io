@@ -557,7 +557,9 @@ i {
 	box-sizing: border-box
 }
 
-[class*=" icon-"],[class^=icon-] {
+@font-face {
+	font-family:iconfont;src:url(./fonts/iconfont.b322fa.eot);src:url(./fonts/iconfont.b322fa.eot#iefix) format("embedded-opentype"),url(./fonts/iconfont.8c627f.woff) format("woff"),url(./fonts/iconfont.16acc2.ttf) format("truetype"),url(./fonts/iconfont.45d7ee.svg#iconfont) format("svg")
+}[class*=" icon-"],[class^=icon-] {
 	font-family: iconfont!important;
 	speak: none;
 	font-size: 16px;
