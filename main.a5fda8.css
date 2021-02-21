@@ -322,7 +322,7 @@ body {
     /* background-color:#fff; */
     min-height:100%;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
-    url('https://gitee.com/funstufftodo/blog-image/raw/master/img/1.jpg') no-repeat 0% 0%/ cover;
+    url('/img/1.jpg') no-repeat 0% 0%/ cover;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary {
