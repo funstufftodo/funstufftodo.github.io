@@ -3291,7 +3291,7 @@ pre .css~* .id,pre .id {
 		position: absolute;
 		width: 100%;
 		z-index: 2;
-		background: #4d4d4d
+		background: rgba(255,255,255,0)
 	}
 
 	#mobile-nav #header {
