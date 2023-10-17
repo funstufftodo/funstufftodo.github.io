@@ -273,14 +273,14 @@
 </tr>
 </tbody></table>
 <p>不妨使用第一片数据选择器构造高两位输出，将A，B作为 数据选择器的地址输入；数据选择器的输出代表W，X；将两路输出同时使能，控制每路信号的合适输入便构造好了需要的结果。</p>
-<p><img src="/..%5Cimages%5C1%5C1.png"></p>
+<p><img src="https://gitee.com/funstufftodo/blog-image/raw/master/img/1.png"></p>
 <p>顺着这个思路构造低两位输出，不妨仍选择A，B作为数据选择器的地址输入；数据选择器的输出代表W，X；也将两路输出同时使能，与上面不同的是我们现在无法简单的构造输入。</p>
 <p>观察真值表我们可以得出以下结论：</p>
 <p>当A &#x3D; 0，B &#x3D; 0时，有Y &#x3D; C，Z &#x3D; C XOR D；</p>
 <p>当A &#x3D; 0，B &#x3D; 1时，有Y &#x3D; ¬C，Z &#x3D; C XNOR D；</p>
 <p>当A &#x3D; 1，B &#x3D; 1时，有Y &#x3D; C，Z &#x3D; D；</p>
 <p>所以用与非门构建同或门和异或门再将他们作为输入输入到数据选择器中就可以了。</p>
-<p><img src="/..%5Cimages%5C1%5C2.png"></p>
+<p><img src="https://gitee.com/funstufftodo/blog-image/raw/master/img/2.png"></p>
 <p>至此本题结束。</p>
 
     
